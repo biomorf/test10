@@ -1,0 +1,1 @@
+/data/data/com.termux/files/home/prog/linadm/my_linux_scripts/git-crypt/create.sh

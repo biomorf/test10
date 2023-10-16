@@ -1,0 +1,8 @@
+# prevent encrypting the .gitattributes file itself
+.gitattributes !filter !diff
+
+secrets.txt filter=git-crypt diff=git-crypt
+
+# patterns example
+*.key filter=git-crypt diff=git-crypt
+secretdir/** filter=git-crypt diff=git-crypt
